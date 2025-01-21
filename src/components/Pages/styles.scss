@@ -1,0 +1,130 @@
+.page{
+	padding: 20px 10px;
+	text-align: left;
+	.row{
+		margin: 1em 0;
+		
+	}
+}
+
+.card-list{
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-bar{
+	display: flex;
+	.btn{
+	  padding: .7em .7em;
+	  margin: 0 .5em;
+	  border: 2px solid #CACCCF;
+	  background-color: white;
+	  color: black;
+	  font-size: 18px;
+	}
+	.btn:hover{
+		background-color: #F5FAFF;
+		color: #007EFE;
+	  }
+	.active{
+	  background-color: #007EFE;
+	  color: white ;
+	}
+	.active:hover{
+	  background-color: #007EFE;
+	  color: white ;
+	}
+	.btn:disabled{
+	  color: #F0F0F0;;
+	}
+  }
+
+  .gen-card{
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: -4px 4px 10px #C4C4C4;
+    background-color: white;
+    
+}
+
+.storage-card-list{
+	display: flex;
+	flex-direction: column;
+	.card-row{
+		display:grid;
+		grid-template-columns: 1fr 3em;
+		align-items: center;
+		margin: 1em 0;
+		.storage-card{
+			margin: 10px 0;
+			padding: 15px;
+			border-radius: 5px;
+			box-shadow: -4px 4px 10px #C4C4C4;
+			background-color: white;
+			display: flex;
+			flex-direction: row;
+			vertical-align: middle;
+			justify-content: space-between;
+			font-size: larger;
+			grid-column-start: 1;
+			text-align: center;
+			input{
+				font-size: larger;
+				max-width: 8em;
+			}
+		}
+		.close-btn{
+			width: 3em;
+			height: 3em;
+			background-color: #C4C4C4;
+			margin: 1.5em;
+			border-radius: 1.5em;
+			img{
+				height: 3em;
+			}
+		}
+	}
+	
+}
+
+.slider {
+	-webkit-appearance: none;
+	width: 50%;
+	height: 0.5em;
+	border-radius:0.25em;
+	background: #d3d3d3;
+	border: 1px solid black;
+	opacity: 0.7;
+	-webkit-transition: .2s;
+	transition: opacity .2s;
+  }
+  
+  .slider:hover {
+	opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 25px;
+	height: 2em;
+	background: #E7F1FB;
+	cursor: pointer;
+	border: 3px solid #007EFE;
+	border-radius: 1em;
+  }
+  
+  .slider::-moz-range-thumb {
+	width: 25px;
+	height: 25px;
+	background: #4CAF50;
+	cursor: pointer;
+  }
+
+
+  .edit-btn{
+	  color: #007EFE;
+	  float: right;
+	  padding-right: 2em;
+  }

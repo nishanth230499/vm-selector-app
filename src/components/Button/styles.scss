@@ -1,0 +1,18 @@
+.btn{
+    font-size: 16px;
+    font-weight: bolder;
+    padding: 0.6em 0;
+    width: 10em;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin: 0.5em 0;
+}
+
+.btn:disabled{
+    opacity: 60%;
+}
+
+.btn:hover{
+    opacity: 80%;
+}
